@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css">
+	<title></title>
+</head>
+<body>
+	<!-- <form method="POST" action="..." onsubmit="return checkForm(this);">
+<p>Enter Number: <input type="text" name="text"></p>
+<p><input type="submit" value="submit"></p>
+<p><input type="submit" value="random"></p>
+</form>
+
+<div id="title"></div> -->
+
+
+
+			<div class="container">
+
+			  <h1>XKCD Comics</h1>
+			  
+			  <form id="comic-form" class="form-inline">
+			    <div class="form-group">
+			      <input type="number"
+			             id="comic-number"
+			             class="form-control mr-3"
+			             placeholder="comic number">
+			    </div>
+			  </form>
+			  <button id="b1" type="submit"
+			            class="btn btn-secondary mr-3"
+			            >get comic by number</button>
+			  
+			  <div id="comic-display">
+			    <h2 id="comic-title">Loading ...</h2>
+			    <div id="comic-controls">
+			      <button id="comic-control-prev"
+			              class="btn btn-secondary">
+			        &laquo; Prev
+			      </button>
+			      <button id="comic-control-random"
+			              class="btn btn-secondary">
+			        Random
+			      </button>
+			      <button id="comic-control-next"
+			              class="btn btn-secondary">
+			        Next &raquo;
+			      </button>
+			    </div><!-- /comic-controls -->
+			    
+			    <div id="comic-date">
+			    </div><!-- /comic-date -->
+			  </div><!-- /comic-display -->
+			  
+			</div><!-- /container -->
+
+
+<script
+ src="https://code.jquery.com/jquery-3.2.1.min.js"
+ integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+ crossorigin="anonymous"></script>
+<script type="text/javascript" src="training.js"></script>
+
+</body>
+</html>
